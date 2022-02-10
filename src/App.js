@@ -1,10 +1,10 @@
 import './styles/index.scss';
-import Home from "./pages/Home";
+import Collections from "./components/Collections";
 
 function App() {
   return (
     <div className="AppContainer">
-      <Home/>
+        <Collections />
     </div>
   );
 }
